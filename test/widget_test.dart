@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:whatapp_clone_ui/main.dart';
-import 'package:whatapp_clone_ui/pages/root_app.dart';
+import 'package:whatapp_clone_ui/Screens/root_app.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

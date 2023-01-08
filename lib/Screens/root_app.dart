@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
-import 'package:whatapp_clone_ui/pages/calls_page.dart';
-import 'package:whatapp_clone_ui/pages/camera_page.dart';
-import 'package:whatapp_clone_ui/pages/chat_page.dart';
-import 'package:whatapp_clone_ui/pages/settings_page.dart';
-import 'package:whatapp_clone_ui/pages/status_page.dart';
+import 'package:whatapp_clone_ui/Screens/calls_screen.dart';
+import 'package:whatapp_clone_ui/Screens/camera_screen.dart';
+import 'package:whatapp_clone_ui/Screens/chat_screen.dart';
+import 'package:whatapp_clone_ui/Screens/settings_screen.dart';
+import 'package:whatapp_clone_ui/Screens/status_screen.dart';
 import 'package:whatapp_clone_ui/theme/colors.dart';
 
 class RootApp extends StatefulWidget {
@@ -52,8 +52,10 @@ class _RootAppState extends State<RootApp> {
       child: Padding(
         padding: const EdgeInsets.only(left: 20, right: 20, top: 5),
         child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: List.generate(textItems.length, (index) {
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: List.generate(
+            textItems.length,
+            (index) {
               return GestureDetector(
                 onTap: () {
                   setState(() {
@@ -70,16 +72,21 @@ class _RootAppState extends State<RootApp> {
                     SizedBox(
                       height: 5,
                     ),
-                    Text(textItems[index],
-                        style: TextStyle(
-                            fontSize: 10,
-                            color: pageIndex == index
-                                ? primary
-                                : white.withOpacity(0.5).withOpacity(0.5))),
+                    Text(
+                      textItems[index],
+                      style: TextStyle(
+                        fontSize: 10,
+                        color: pageIndex == index
+                            ? primary
+                            : white.withOpacity(0.5).withOpacity(0.5),
+                      ),
+                    ),
                   ],
                 ),
               );
-            })),
+            },
+          ),
+        ),
       ),
     );
   }

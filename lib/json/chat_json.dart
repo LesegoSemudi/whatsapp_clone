@@ -3,52 +3,52 @@ import 'package:line_icons/line_icons.dart';
 
 const List profile = [
   {
-    "name": "Sopheamen",
+    "name": "LingLee",
     "img":
-        "https://lh3.googleusercontent.com/a-/AOh14GhqYCtgODjBQZ2EcAvJApnWnnDPgZe80-AMM6tctw=s600-k-no-rp-mo"
+        "https://images.unsplash.com/photo-1670930775415-8c4c5bd0add1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80"
   }
 ];
 
 const List chat_data = [
   {
     "img":
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "name": "Ben Parker",
+        "https://images.unsplash.com/photo-1670840927510-590eb4de2346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80",
+    "name": "Momo",
     "text": "Yes, got it. Thanks for your contacting.",
     "date": "10/8/20"
   },
   {
     "img":
-        "https://images.unsplash.com/photo-1520155707862-5b32817388d6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "name": "Foto Sushi",
+        "https://images.unsplash.com/photo-1670525975578-4051a7803c38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "name": "Grafi Jeremiah",
     "text": "going to sleep now",
     "date": "6/10/20"
   },
   {
     "img":
-        "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "name": "Ayo Ogunseinde",
-    "text": "Have a nice day, Sopheamen 😁",
+        "https://images.unsplash.com/photo-1669493611739-6dd2ee7f6d22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80",
+    "name": "Shiona Das",
+    "text": "Have a nice day, Ling 😁",
     "date": "10/6/20"
   },
   {
     "img":
-        "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "name": "Steve Halama",
+        "https://images.unsplash.com/photo-1670506686973-d55fd6e34821?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "name": "Mauro Lima",
     "text": "How is everthing?",
     "date": "11/5/20"
   },
   {
     "img":
-        "https://images.unsplash.com/photo-1525879000488-bff3b1c387cf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "name": "Zohre Nemati",
+        "https://images.unsplash.com/photo-1670439999166-888c4386d15a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+    "name": "Laura Chouette",
     "text": "ok",
     "date": "2/28/20"
   },
   {
     "img":
-        "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzV8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "name": "Patrick Hendry",
+        "https://images.unsplash.com/photo-1669764220821-fbdca4729b24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+    "name": "Jopopz Tallorin",
     "text": "take care! speak soon :)",
     "date": "6/1/20"
   }
@@ -114,19 +114,19 @@ const List messages = [
   },
   {
     "isMe": false,
-    "message": "Good ey friend",
+    "message": "Good hi friend",
     "time": "2:42 PM",
     "isLast": false,
   },
   {
     "isMe": false,
-    "message": "jam sing 2 nak",
+    "message": "yes I can sing too lol",
     "time": "2:44 PM",
     "isLast": false,
   },
   {
     "isMe": false,
-    "message": "good nas",
+    "message": "good",
     "time": "2:45 PM",
     "isLast": false,
   },
@@ -138,7 +138,7 @@ const List messages = [
   },
   {
     "isMe": true,
-    "message": "yes, hey again Sophal",
+    "message": "yes, hey again Friend",
     "time": "1:40 PM",
     "isLast": false,
   },
@@ -150,37 +150,37 @@ const List messages = [
   },
   {
     "isMe": true,
-    "message": "Next time pel tenh tam me tov",
+    "message": "Next time lets meet again tomorrow",
     "time": "1:41 PM",
     "isLast": false,
   },
   {
     "isMe": true,
-    "message": "Order tam me tov",
+    "message": "Order pizza tomorrow",
     "time": "1:41 PM",
     "isLast": true,
   },
   {
     "isMe": false,
-    "message": "Orkun friend",
+    "message": "Okay friend",
     "time": "2:42 PM",
     "isLast": false,
   },
   {
     "isMe": false,
-    "message": "me banh song fri venh ai",
+    "message": "im making a song on Friday",
     "time": "2:44 PM",
     "isLast": false,
   },
   {
     "isMe": false,
-    "message": "orkun nas friend",
+    "message": "can we talk later friend",
     "time": "2:45 PM",
     "isLast": false,
   },
   {
     "isMe": false,
-    "message": "all the best na!!!",
+    "message": "all the best!!!",
     "time": "2:46 PM",
     "isLast": true,
   },

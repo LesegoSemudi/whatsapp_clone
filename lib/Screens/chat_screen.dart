@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:whatapp_clone_ui/json/chat_json.dart';
-import 'package:whatapp_clone_ui/pages/chat_detail_page.dart';
+import 'package:whatapp_clone_ui/Screens/chat_detail_screen.dart';
 import 'package:whatapp_clone_ui/theme/colors.dart';
 
 class ChatPage extends StatefulWidget {
@@ -34,10 +34,17 @@ class _ChatPageState extends State<ChatPage> {
         IconButton(
           onPressed: null,
           icon: Icon(
-            Icons.edit,
+            Icons.camera_alt_outlined,
             color: primary,
           ),
-        )
+        ),
+        IconButton(
+          onPressed: null,
+          icon: Icon(
+            Icons.note_alt_outlined,
+            color: primary,
+          ),
+        ),
       ],
     );
   }
